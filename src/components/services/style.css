@@ -1,0 +1,42 @@
+.services{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.services::-webkit-scrollbar{
+    display: none;
+}
+
+.services-header{
+    text-align: center;
+    color: var(--text-sec);
+    margin-bottom: 15px;
+}
+
+.service{
+    min-width: 250px;
+    height: 250px;
+    background-color: var(--service-card);
+    text-align: center;
+    padding: 10px;
+    margin: 15px 10px;
+    color: var(--text-sec);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3),
+        -2px -2px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: box-shadow 300ms ease;
+}
+.service:hover{
+    box-shadow: none;
+}
+
+.service h1{
+    font-size: 20px;
+    margin: 5px 0;
+    color: var(--accent-text);
+}
+.service p{
+    font-size: 15px;
+}

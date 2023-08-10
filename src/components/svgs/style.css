@@ -1,0 +1,18 @@
+.socialLinks{
+    transition: all .2s ease-in-out;
+}
+
+.socialLinks:hover{
+    transform: scale(1.15);
+    fill: var(--accent-text);
+}
+
+#pin{
+    display: inline-block;
+    width: 20px;
+    fill: crimson;
+}
+
+#download-icon{
+    margin: 0 0 0 15px;
+}

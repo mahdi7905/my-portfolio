@@ -1,0 +1,21 @@
+.bio{
+    width: 100%;
+    color: var(--text);
+    padding: 5% 10%;
+}
+.bioContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:15px ;
+}
+.bioContent span{
+    color: rgb(213, 213, 213);
+}
+
+
+hr{
+    height: .5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}

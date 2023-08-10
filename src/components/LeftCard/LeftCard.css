@@ -1,0 +1,35 @@
+.left-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    background-color: var(--leftCard-bg);
+    color: var(--text);
+}
+
+.logo{
+    margin-bottom: 5px;
+}
+.myName{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.core{
+    font-size: .7em;
+    font-weight: bold;
+    color: var(--text-sec);
+}
+p:not(:last-child){
+    margin-bottom: 5px;
+}
+
+@media (max-width: 950px) {
+
+    .left-card {
+        height: 50vh;
+    }
+
+
+}

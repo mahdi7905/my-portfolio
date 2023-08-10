@@ -1,0 +1,17 @@
+
+.left {
+    height: 100%;
+    background-color: var(--primary-bg);
+    position: relative;
+}
+
+@media (max-width: 950px) {
+    .left{
+        display: none !important;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skills-container {
+        max-height: 95%;
+    }
+}

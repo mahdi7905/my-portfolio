@@ -1,0 +1,15 @@
+.right{
+    background-image: var(--right);
+    height: 100%;
+    padding: 5%;
+    overflow-y: scroll;
+}
+.right::-webkit-scrollbar{
+    display: none;
+}
+
+@media (max-width: 950px) {
+    .right {
+        display: none !important;
+    }
+}

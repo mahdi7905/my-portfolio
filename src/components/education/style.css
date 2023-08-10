@@ -1,0 +1,101 @@
+.edu-container h1{
+    text-align: center;
+    color: var(--text-sec);
+    margin: 15px 0;
+}
+
+
+.edu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.edu-info{
+    position: relative;
+    z-index: 1;
+    background-color: var(--primary-bg);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: all .2s ease;
+}
+.edu-info::before{
+    content: '';
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(38, 38, 45, 0.16);
+    border-radius: 10px;
+    z-index: -1;
+    transform-origin: right;
+}
+
+@keyframes flasher {
+    from {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+    to{
+        transform: scaleX(0);
+    }
+}
+.edu-info:hover{
+    box-shadow: -3px -3px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+.edu-info:hover::before{
+    display: block;
+    animation: flasher 2s linear infinite;
+}
+
+.edu-info .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.edu-info .title h2{
+    font-size: 15px;
+    color: var(--accent-text);
+}
+.edu-info .title h3{
+    color: var(--text-sec);
+    font-size: 12px;
+    font-weight: light;
+}
+.title span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.honor h2{
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: var(--text);
+}
+.honor h3{
+    font-size: 15px;
+    color: var(--text-sec);
+}
+
+@media (max-width: 950px) {
+    .edu {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 0 20px 20px;
+    }
+}
+@media (max-width: 600px) {
+    .edu {
+        grid-template-columns: 1fr;
+    }
+
+    .edu-container h1 {
+        font-size: 25px;
+        margin: 0 0 30px 0;
+    }
+}
