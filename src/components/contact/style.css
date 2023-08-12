@@ -7,6 +7,9 @@
 .formArea{
     width: 100%;
 }
+.send-message{
+    width: 30px;
+}
 
 .formArea form{
     width: 100%;
@@ -48,11 +51,11 @@
 .submitButton{
     z-index: 1;
     position: relative;
-    width: 50%;
-    padding: 10px;
+    width: 15%;
+    padding: 5px;
     border-radius: 20px;
     color: whitesmoke;
-    background: linear-gradient(to bottom right,rgb(35, 46, 56),rgb(68, 88, 108) );
+    background: linear-gradient(to bottom right,rgb(208, 109, 33),rgb(11, 109, 54) );
     border: none;
     transition: all .3s ease-in-out;
     cursor: pointer;
