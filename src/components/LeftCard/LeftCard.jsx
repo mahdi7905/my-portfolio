@@ -7,9 +7,9 @@ const LeftCard = () => {
     <div className='left-card'>
       <Catalogue/>
       <h4 className='myName'>Mahadi Mansur</h4>
-      <p className='core'>UI/UX Designer</p>
+      <p className='core'>Scientific Officer 2 at RMRDC</p>
       <p className='core'>Full Stack Developer</p>
-      <p className='core'>3D Designer</p>
+      <p className='core'>Mobile Developer (React Native)</p>
       <CvButton/>
     </div>
   )

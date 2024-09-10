@@ -1,16 +1,16 @@
 import React from 'react'
 import './style.css'
 import Project from './Project'
+import { projects } from '../../projectData'
 
 const Projects = () => {
   return (
     <>
-    <h1 className='projects-header'>My Projects</h1>
+    <h1 className='projects-header'>My Portfolio</h1>
     <div className='projects-container'>
-        <Project/>
-        <Project/>
-        <Project/>
-        <Project/>
+      {
+        projects.map((project) => <Project project={project}/>)
+      }
     </div>
     </>
   )

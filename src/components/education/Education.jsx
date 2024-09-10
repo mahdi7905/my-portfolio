@@ -12,7 +12,7 @@ const Education = () => {
         },
         {
             title: 'Kaduna Integrated Academy',
-            durations: '2022-present',
+            durations: '2022-2023',
             honor: 'Instructor',
             role: 'Responsible for guiding pupils in ICT'
         },
@@ -34,22 +34,28 @@ const Education = () => {
             honor: 'Internship',
             role: 'Software and Hardware Engineer'
         },
+        {
+            title: 'Raw Materials Research and Development Council',
+            durations: '2023-present',
+            honor: 'Civil Service',
+            role: 'scientific Officer 2'
+        },
         
     ]
   return (
     <div className='edu-container'>
-    <h1>Education & Experience</h1>
-    <div className='edu'>
-        {
-            exp.map(e => <EduCard 
-                key={e.title}
-                title={e.title} 
-                durations={e.durations} 
-                honor={e.honor}
-                role={e.role}/>
-                )
-        }
-    </div>
+        <h1>Education & Experience</h1>
+        <div className='edu'>
+            {
+                exp.map(e => <EduCard 
+                    key={e.title}
+                    title={e.title} 
+                    durations={e.durations} 
+                    honor={e.honor}
+                    role={e.role}/>
+                    )
+            }
+        </div>
     </div>
   )
 }

@@ -5,7 +5,7 @@
 }
 .skills-container{
     width: 100%;
-    max-height: 200px;
+    max-height: 300px;
     overflow-y: scroll;
 }
 
@@ -66,20 +66,20 @@
 @media (max-width: 1368px) {
     
     .skills-container {
-        max-height: 250px;
+        max-height: 370px;
     }
 }
 
 @media (max-width: 1200px) {
 
     .skills-container {
-        max-height: 270px;
+        max-height: 400px;
     }
 }
 
 @media (max-width: 1000px) {
     .skills-container {
-            max-height: 280px;
+            max-height: 400px;
         }
 }
 

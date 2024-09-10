@@ -1,20 +1,16 @@
 import React from 'react'
-import sampleImage from '../../assets/sample.png'
 import Github from '../svgs/Github'
 import Eye from '../svgs/Eye'
 
-const Project = () => {
+const Project = ({project}) => {
   return (
     <div className='project-card'>
       <div className="projectTitle">
-        <h3>Project Title</h3>
+        <h3>{project.title}</h3>
       </div>
-      <img src={sampleImage} alt="project" className='projectImage' />
-      
+      <img src={project.media[0]} alt="project" className='projectImage' />
       <div className="projectDescription">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Deserunt aperiam corporis exercitationem aut quam, 
-        recusandae animi quo autem blanditiis quaerat.
+        {project.description}
       </div>
       <div className="viewProject">
         <a href="http://" target="_blank" rel="noopener noreferrer">

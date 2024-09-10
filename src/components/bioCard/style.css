@@ -23,6 +23,12 @@
     opacity: .2;
 
 }
+.social-media{
+    display: flex;
+    align-items:center ;
+    gap: 20px;
+    margin: 10px 0;
+}
 
 .bio-content{
     padding: 15px;
