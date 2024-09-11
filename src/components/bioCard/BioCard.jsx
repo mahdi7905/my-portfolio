@@ -17,16 +17,12 @@ const BioCard = () => {
             <h1>Hi There!!!</h1>
             <div className='text-wrapper'>
                 <h2>I am a </h2>
-                <h2 className="swap">Full Stack Developer.</h2>
-            </div>
-            <div className='text-wrapper'>
-                <h2>I am also a </h2>
-                <h2 className="swap">Mobile Developer.</h2>
+                <h2 className="swap">Full Stack & Mobile Developer.</h2>
             </div>
             <div className="social-media">
-              <a href="mailto:mawsoulmahady2015@gmail.com"><Mail/></a>
-              <a href="https://www.linkedin.com/in/mahadi-mansur-480a03276/"><Linkedin/></a>
-              <a href="https://github.com/mahdi7905"><Github/></a>
+              <a href="mailto:mawsoulmahady2015@gmail.com" target='_blank' rel='noreferrer'><Mail/></a>
+              <a href="https://www.linkedin.com/in/mahadi-mansur-480a03276/" target='_blank' rel='noreferrer'><Linkedin/></a>
+              <a href="https://github.com/mahdi7905" target='_blank' rel='noreferrer'><Github/></a>
             </div>
             <a href="#contactArea" className='contactMe'>Contact Me</a>
         </div>

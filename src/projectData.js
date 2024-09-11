@@ -44,41 +44,48 @@ export const projects = [
       homiest6,
       homiest7,
     ],
+    link: "https://github.com/mahdi7905/homiest",
   },
   {
     title: "Caplug",
     description:
       "This an e-commerce platform for traditional hausa caps. Users can view products, mark them as favorites, add products to cart and checkout later, checkout products. I levereged ReactJs at the frontend for web, StripeJS as payment gateway, NodeJS/Express for the server and MongoDB as database.",
     media: [plug1, plug2, plug3],
+    link: "https://github.com/mahdi7905/plug",
   },
   {
     title: "FinGuard",
     description:
       "This a platform that is meant to help it's users monitor their finance and expenditure. Users have the functionalities such as registering income, saving some amount from income, creating budgets for each month, registering expenses with reciepts, see history, records and analytics of all forms of transactions. I levereged ReactJs at the frontend for web, NodeJS/Express for the server and MongoDB as database.",
     media: [finguard1, finguard2, finguard3, finguard4],
+    link: "https://github.com/mahdi7905/FinGuard",
   },
   {
     title: "SMS",
     description:
       "SMS is a school management system that I built for some school that I used to teach with the purpose of easying workload on the staff, data collection and analytics in order to boost performance of students, staff and provide parents with insight of their children's performance to achieve higher efficiency.",
     media: [sms1, sms2, sms3, sms4, sms5, sms6],
+    link: "https://github.com/mahdi7905/school-management-software",
   },
   {
     title: "Bucket",
     description:
       "As the name of the project implies, this project serves the purpose of helping it's users to create bucket lists and todo's with steps, timeframes and progress meter. It exists in both web and mobile platforms.",
     media: [bucket1, bucket2, bucket3, bucket4],
+    link: "https://github.com/mahdi7905/bucket-main",
   },
   {
     title: "Tictactoe",
     description:
       "This project might look simple. But actually there tons of logic and conditions to set. This is one of my early projects and it opend my eyes to problem solving and algorithm development. I quite enjoy it.",
     media: [tictactoe],
+    link: "https://github.com/mahdi7905/tic-tac-toe",
   },
   {
     title: "My portfolio",
     description:
       "This really is not a huge project. I built this to showcase my experience and catalogue of projects.",
     media: [portfolio],
+    link: "https://github.com/mahdi7905/my-portfolio",
   },
 ];

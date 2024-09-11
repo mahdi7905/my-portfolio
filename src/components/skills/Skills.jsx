@@ -8,6 +8,7 @@ const Skills = () => {
       <div className="skills-container">
         <Meter skill='html' reading={90}/>
         <Meter skill='css' reading={80}/>
+        <Meter skill='tailwind css' reading={80}/>
         <Meter skill='javascript' reading={80}/>
         <Meter skill='React' reading={80}/>
         <Meter skill='React Native' reading={80}/>

@@ -43,8 +43,6 @@
     right: 0;
     height: 15%;
     background-color: var(--leftCard-bg);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     transform: scaleY(0);
     transform-origin: bottom;
     transition: all .5s ease-in-out;

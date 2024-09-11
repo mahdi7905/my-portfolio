@@ -1,6 +1,5 @@
 import React from 'react'
 import Github from '../svgs/Github'
-import Eye from '../svgs/Eye'
 
 const Project = ({project}) => {
   return (
@@ -13,11 +12,8 @@ const Project = ({project}) => {
         {project.description}
       </div>
       <div className="viewProject">
-        <a href="http://" target="_blank" rel="noopener noreferrer">
+        <a href={project.link} target="_blank" rel="noopener noreferrer">
           <Github/>
-        </a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">
-          <Eye/>
         </a>
       </div>
     </div>
